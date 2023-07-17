@@ -19,6 +19,7 @@
 		78C75C6B2A65805A00A55EEE /* Google_Sign_InUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C75C6A2A65805A00A55EEE /* Google_Sign_InUITests.swift */; };
 		78C75C6D2A65805A00A55EEE /* Google_Sign_InUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C75C6C2A65805A00A55EEE /* Google_Sign_InUITestsLaunchTests.swift */; };
 		78C75C7C2A65835200A55EEE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78C75C7B2A65835200A55EEE /* GoogleService-Info.plist */; };
+		78C75C7E2A65978300A55EEE /* LoggedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C75C7D2A65978300A55EEE /* LoggedInViewController.swift */; };
 		FEE1F6790B3A0059D86C3EFB /* Pods_Google_Sign_InTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AAFBB63A15526A5EF978C7 /* Pods_Google_Sign_InTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		78C75C6A2A65805A00A55EEE /* Google_Sign_InUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Google_Sign_InUITests.swift; sourceTree = "<group>"; };
 		78C75C6C2A65805A00A55EEE /* Google_Sign_InUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Google_Sign_InUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		78C75C7B2A65835200A55EEE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		78C75C7D2A65978300A55EEE /* LoggedInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInViewController.swift; sourceTree = "<group>"; };
 		8FC9D897904E497696762B23 /* Pods_Google_Sign_In.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Google_Sign_In.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1364D41FF4CA7FB1C9AA59D /* Pods-Google Sign-In.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Google Sign-In.debug.xcconfig"; path = "Target Support Files/Pods-Google Sign-In/Pods-Google Sign-In.debug.xcconfig"; sourceTree = "<group>"; };
 		B55D3C37C5502EBA8B4EEB1D /* Pods-Google Sign-In.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Google Sign-In.release.xcconfig"; path = "Target Support Files/Pods-Google Sign-In/Pods-Google Sign-In.release.xcconfig"; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				78C75C492A65805900A55EEE /* AppDelegate.swift */,
 				78C75C4B2A65805900A55EEE /* SceneDelegate.swift */,
 				78C75C4D2A65805900A55EEE /* ViewController.swift */,
+				78C75C7D2A65978300A55EEE /* LoggedInViewController.swift */,
 				78C75C4F2A65805900A55EEE /* Main.storyboard */,
 				78C75C522A65805900A55EEE /* Assets.xcassets */,
 				78C75C542A65805900A55EEE /* LaunchScreen.storyboard */,
@@ -413,6 +416,7 @@
 				78C75C4E2A65805900A55EEE /* ViewController.swift in Sources */,
 				78C75C4A2A65805900A55EEE /* AppDelegate.swift in Sources */,
 				78C75C4C2A65805900A55EEE /* SceneDelegate.swift in Sources */,
+				78C75C7E2A65978300A55EEE /* LoggedInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,7 +522,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -572,7 +576,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -598,6 +602,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -627,6 +632,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -650,7 +656,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K4A9T7D84R;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.TR.Google-Sign-InTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -671,7 +677,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K4A9T7D84R;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.TR.Google-Sign-InTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -691,6 +697,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K4A9T7D84R;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.TR.Google-Sign-InUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -710,6 +717,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K4A9T7D84R;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.TR.Google-Sign-InUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";

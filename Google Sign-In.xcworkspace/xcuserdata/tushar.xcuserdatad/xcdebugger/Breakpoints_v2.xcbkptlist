@@ -7,51 +7,20 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C1FC3792-A006-4D01-A9A0-9D94BF7C42FE"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Google Sign-In/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "googleSignIn(sender:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "2AC54A2D-5690-4224-8415-018D46A3306E"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Google Sign-In/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
             landmarkName = "googleSignIn(sender:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "2AC54A2D-5690-4224-8415-018D46A3306E - 615ddccc8f8adb73"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Google_Sign_In.ViewController.googleSignIn(sender: Swift.Optional&lt;__C.UIButton&gt;) -&gt; ()"
-                  moduleName = "Google Sign-In"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/tushar/Documents/iOS%20Practise%20Projects/UIKit/Google%20Sign-In/Google%20Sign-In/Google%20Sign-In/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "36"
-                  endingLineNumber = "36"
-                  offsetFromSymbolStart = "216">
-               </Location>
-               <Location
-                  uuid = "2AC54A2D-5690-4224-8415-018D46A3306E - fd862b98fdede773"
+                  uuid = "2AC54A2D-5690-4224-8415-018D46A3306E - fd862b98fdede92c"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -61,9 +30,24 @@
                   urlString = "file:///Users/tushar/Documents/iOS%20Practise%20Projects/UIKit/Google%20Sign-In/Google%20Sign-In/Google%20Sign-In/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "32">
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "2AC54A2D-5690-4224-8415-018D46A3306E - fd862b98fdede90d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.GIDSignInResult&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Google_Sign_In.ViewController.googleSignIn(sender: Swift.Optional&lt;__C.UIButton&gt;) -&gt; ()"
+                  moduleName = "Google Sign-In"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tushar/Documents/iOS%20Practise%20Projects/UIKit/Google%20Sign-In/Google%20Sign-In/Google%20Sign-In/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "64">
                </Location>
             </Locations>
          </BreakpointContent>

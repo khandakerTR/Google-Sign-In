@@ -22,9 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let config = GIDConfiguration(clientID: clientID)
                 
         GIDSignIn.sharedInstance.configuration = config
-        
-
-        
+    
         GIDSignIn.sharedInstance.restorePreviousSignIn { user, error in
             if error != nil || user == nil {
               // Show the app's signed-out state.
